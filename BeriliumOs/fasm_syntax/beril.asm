@@ -53,6 +53,6 @@ int 0x10
 mov al, 'Z'
 int 0x10
 hlt
-jmp start
+jmp $
 times 510 -($-$$) db 0x0
 dw 0x55AA
